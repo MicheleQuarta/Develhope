@@ -17,7 +17,6 @@ public class array3 {
     }
 
     public static int[] generaArrayCasuale(int lunghezza) {
-        Random random = new Random();
         int[] array = new int[lunghezza];
         for (int i = 0; i < lunghezza; i++) {
             array[i] =(int) (Math.random() * 10); // Genera numeri casuali tra 0 e 9
